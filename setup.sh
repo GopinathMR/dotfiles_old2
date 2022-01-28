@@ -1,5 +1,7 @@
 #!/bin/zsh
-brew install jq repgrep cmake fpp
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install jq repgrep cmake fpp wget git tmux neovim gh ruby@2.7 cocoapods kdiff3 fp tree
+brew cask install oni
 brew tap bufbuild/buf && brew install buf
 mkdir -p ~/softwares
 cd ~/softwares
